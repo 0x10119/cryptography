@@ -1,7 +1,9 @@
 from caesar import CaesarCipher
 from vigenere import VigenereCipher
+from art import logo
 
 if __name__ == '__main__':
+    print(logo)
     should_continue = True
     while should_continue:
         choice = input("Caesar or Vigenere? Type 'c' or 'v' or 'y' to exit ")
